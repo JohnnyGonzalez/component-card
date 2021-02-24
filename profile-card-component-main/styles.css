@@ -1,0 +1,108 @@
+body {
+  background-image: url("images/bg-pattern-top.svg"),
+    url("images/bg-pattern-bottom.svg");
+  background-color: hsl(185, 75%, 39%);
+  background-repeat: no-repeat;
+  background-position: top -525px left -375px, bottom -775px right -375px;
+  margin-top: 25vh;
+}
+
+hr {
+  border-top: 1px solid lightgrey;
+  border-bottom: none;
+  margin: 0;
+  height: 0;
+}
+
+.card {
+  background-color: white;
+  text-align: center;
+  height: 325px;
+  width: 300px;
+  margin: auto;
+  border-radius: 15px;
+  box-shadow: 0px 10px 20px -10px;
+}
+
+.top-container {
+  background-image: url("images/bg-pattern-card.svg");
+  background-color: cyan;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  position: relative;
+  height: 110px;
+}
+
+.top-container img {
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -45px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  border: 5px solid white;
+  width: 80px;
+}
+
+.profile {
+  height: 135px;
+}
+
+.profile h1 {
+  font-size: 16px;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: bolder;
+  padding-top: 70px;
+  padding-bottom: 5px;
+  line-height: 0.5;
+  margin: 0;
+}
+
+.profile span {
+  display: inline-block;
+  color: silver;
+  margin-left: 5px;
+}
+
+.profile p {
+  font-size: 14px;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+.social-media {
+  position: relative;
+  font-size: 16px;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: bolder;
+}
+
+.social-media span {
+  display: block;
+  font-size: 10px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  padding-top: 10px;
+}
+
+.followers {
+  position: absolute;
+  left: 25px;
+  padding-top: 5px;
+}
+
+.likes {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+}
+
+.photos {
+  position: absolute;
+  right: 35px;
+  padding-top: 5px;
+}
